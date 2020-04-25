@@ -1,0 +1,177 @@
+[
+  {
+    "directory": "/home/pranav/Desktop/Research/CMimircache/CMimircache/build",
+    "command": "cc -Icache@sta -I. -I.. -I.././headers -I.././dataStructure/include -I.././cache/include -I.././cacheReader/include -I.././profiler/include -I.././utils/include -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -MD -MQ 'cache@sta/cache_AMP.c.o' -MF 'cache@sta/cache_AMP.c.o.d' -o 'cache@sta/cache_AMP.c.o' -c ../cache/AMP.c",
+    "file": "../cache/AMP.c"
+  },
+  {
+    "directory": "/home/pranav/Desktop/Research/CMimircache/CMimircache/build",
+    "command": "cc -Icache@sta -I. -I.. -I.././headers -I.././dataStructure/include -I.././cache/include -I.././cacheReader/include -I.././profiler/include -I.././utils/include -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -MD -MQ 'cache@sta/cache_LFUFast.c.o' -MF 'cache@sta/cache_LFUFast.c.o.d' -o 'cache@sta/cache_LFUFast.c.o' -c ../cache/LFUFast.c",
+    "file": "../cache/LFUFast.c"
+  },
+  {
+    "directory": "/home/pranav/Desktop/Research/CMimircache/CMimircache/build",
+    "command": "cc -Icache@sta -I. -I.. -I.././headers -I.././dataStructure/include -I.././cache/include -I.././cacheReader/include -I.././profiler/include -I.././utils/include -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -MD -MQ 'cache@sta/cache_LRUSize.c.o' -MF 'cache@sta/cache_LRUSize.c.o.d' -o 'cache@sta/cache_LRUSize.c.o' -c ../cache/LRUSize.c",
+    "file": "../cache/LRUSize.c"
+  },
+  {
+    "directory": "/home/pranav/Desktop/Research/CMimircache/CMimircache/build",
+    "command": "cc -Icache@sta -I. -I.. -I.././headers -I.././dataStructure/include -I.././cache/include -I.././cacheReader/include -I.././profiler/include -I.././utils/include -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -MD -MQ 'cache@sta/cache_PG.c.o' -MF 'cache@sta/cache_PG.c.o.d' -o 'cache@sta/cache_PG.c.o' -c ../cache/PG.c",
+    "file": "../cache/PG.c"
+  },
+  {
+    "directory": "/home/pranav/Desktop/Research/CMimircache/CMimircache/build",
+    "command": "cc -Icache@sta -I. -I.. -I.././headers -I.././dataStructure/include -I.././cache/include -I.././cacheReader/include -I.././profiler/include -I.././utils/include -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -MD -MQ 'cache@sta/cache_ARC.c.o' -MF 'cache@sta/cache_ARC.c.o.d' -o 'cache@sta/cache_ARC.c.o' -c ../cache/ARC.c",
+    "file": "../cache/ARC.c"
+  },
+  {
+    "directory": "/home/pranav/Desktop/Research/CMimircache/CMimircache/build",
+    "command": "cc -Icache@sta -I. -I.. -I.././headers -I.././dataStructure/include -I.././cache/include -I.././cacheReader/include -I.././profiler/include -I.././utils/include -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -MD -MQ 'cache@sta/cache_LRU_K.c.o' -MF 'cache@sta/cache_LRU_K.c.o.d' -o 'cache@sta/cache_LRU_K.c.o' -c ../cache/LRU_K.c",
+    "file": "../cache/LRU_K.c"
+  },
+  {
+    "directory": "/home/pranav/Desktop/Research/CMimircache/CMimircache/build",
+    "command": "cc -Icache@sta -I. -I.. -I.././headers -I.././dataStructure/include -I.././cache/include -I.././cacheReader/include -I.././profiler/include -I.././utils/include -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -MD -MQ 'cache@sta/cache_Random.c.o' -MF 'cache@sta/cache_Random.c.o.d' -o 'cache@sta/cache_Random.c.o' -c ../cache/Random.c",
+    "file": "../cache/Random.c"
+  },
+  {
+    "directory": "/home/pranav/Desktop/Research/CMimircache/CMimircache/build",
+    "command": "cc -Icache@sta -I. -I.. -I.././headers -I.././dataStructure/include -I.././cache/include -I.././cacheReader/include -I.././profiler/include -I.././utils/include -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -MD -MQ 'cache@sta/cache_cache.c.o' -MF 'cache@sta/cache_cache.c.o.d' -o 'cache@sta/cache_cache.c.o' -c ../cache/cache.c",
+    "file": "../cache/cache.c"
+  },
+  {
+    "directory": "/home/pranav/Desktop/Research/CMimircache/CMimircache/build",
+    "command": "cc -Icache@sta -I. -I.. -I.././headers -I.././dataStructure/include -I.././cache/include -I.././cacheReader/include -I.././profiler/include -I.././utils/include -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -MD -MQ 'cache@sta/cache_FIFO.c.o' -MF 'cache@sta/cache_FIFO.c.o.d' -o 'cache@sta/cache_FIFO.c.o' -c ../cache/FIFO.c",
+    "file": "../cache/FIFO.c"
+  },
+  {
+    "directory": "/home/pranav/Desktop/Research/CMimircache/CMimircache/build",
+    "command": "cc -Icache@sta -I. -I.. -I.././headers -I.././dataStructure/include -I.././cache/include -I.././cacheReader/include -I.././profiler/include -I.././utils/include -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -MD -MQ 'cache@sta/cache_LRU.c.o' -MF 'cache@sta/cache_LRU.c.o.d' -o 'cache@sta/cache_LRU.c.o' -c ../cache/LRU.c",
+    "file": "../cache/LRU.c"
+  },
+  {
+    "directory": "/home/pranav/Desktop/Research/CMimircache/CMimircache/build",
+    "command": "cc -Icache@sta -I. -I.. -I.././headers -I.././dataStructure/include -I.././cache/include -I.././cacheReader/include -I.././profiler/include -I.././utils/include -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -MD -MQ 'cache@sta/cache_MRU.c.o' -MF 'cache@sta/cache_MRU.c.o.d' -o 'cache@sta/cache_MRU.c.o' -c ../cache/MRU.c",
+    "file": "../cache/MRU.c"
+  },
+  {
+    "directory": "/home/pranav/Desktop/Research/CMimircache/CMimircache/build",
+    "command": "cc -Icache@sta -I. -I.. -I.././headers -I.././dataStructure/include -I.././cache/include -I.././cacheReader/include -I.././profiler/include -I.././utils/include -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -MD -MQ 'cache@sta/cache_SLRU.c.o' -MF 'cache@sta/cache_SLRU.c.o.d' -o 'cache@sta/cache_SLRU.c.o' -c ../cache/SLRU.c",
+    "file": "../cache/SLRU.c"
+  },
+  {
+    "directory": "/home/pranav/Desktop/Research/CMimircache/CMimircache/build",
+    "command": "cc -Icache@sta -I. -I.. -I.././headers -I.././dataStructure/include -I.././cache/include -I.././cacheReader/include -I.././profiler/include -I.././utils/include -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -MD -MQ 'cache@sta/cache_Mithril.c.o' -MF 'cache@sta/cache_Mithril.c.o.d' -o 'cache@sta/cache_Mithril.c.o' -c ../cache/Mithril.c",
+    "file": "../cache/Mithril.c"
+  },
+  {
+    "directory": "/home/pranav/Desktop/Research/CMimircache/CMimircache/build",
+    "command": "cc -Icache@sta -I. -I.. -I.././headers -I.././dataStructure/include -I.././cache/include -I.././cacheReader/include -I.././profiler/include -I.././utils/include -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -MD -MQ 'cache@sta/cache_LFU.c.o' -MF 'cache@sta/cache_LFU.c.o.d' -o 'cache@sta/cache_LFU.c.o' -c ../cache/LFU.c",
+    "file": "../cache/LFU.c"
+  },
+  {
+    "directory": "/home/pranav/Desktop/Research/CMimircache/CMimircache/build",
+    "command": "cc -Icache@sta -I. -I.. -I.././headers -I.././dataStructure/include -I.././cache/include -I.././cacheReader/include -I.././profiler/include -I.././utils/include -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -MD -MQ 'cache@sta/cache_Optimal.c.o' -MF 'cache@sta/cache_Optimal.c.o.d' -o 'cache@sta/cache_Optimal.c.o' -c ../cache/Optimal.c",
+    "file": "../cache/Optimal.c"
+  },
+  {
+    "directory": "/home/pranav/Desktop/Research/CMimircache/CMimircache/build",
+    "command": "cc -IdataStructure@sta -I. -I.. -I.././headers -I.././dataStructure/include -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -MD -MQ 'dataStructure@sta/dataStructure_pqueue.c.o' -MF 'dataStructure@sta/dataStructure_pqueue.c.o.d' -o 'dataStructure@sta/dataStructure_pqueue.c.o' -c ../dataStructure/pqueue.c",
+    "file": "../dataStructure/pqueue.c"
+  },
+  {
+    "directory": "/home/pranav/Desktop/Research/CMimircache/CMimircache/build",
+    "command": "cc -IdataStructure@sta -I. -I.. -I.././headers -I.././dataStructure/include -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -MD -MQ 'dataStructure@sta/dataStructure_splay.c.o' -MF 'dataStructure@sta/dataStructure_splay.c.o.d' -o 'dataStructure@sta/dataStructure_splay.c.o' -c ../dataStructure/splay.c",
+    "file": "../dataStructure/splay.c"
+  },
+  {
+    "directory": "/home/pranav/Desktop/Research/CMimircache/CMimircache/build",
+    "command": "cc -IcacheReader@sta -I. -I.. -I.././headers -I.././cache/include -I.././cacheReader/include -I.././utils/include -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -MD -MQ 'cacheReader@sta/cacheReader_binaryReader.c.o' -MF 'cacheReader@sta/cacheReader_binaryReader.c.o.d' -o 'cacheReader@sta/cacheReader_binaryReader.c.o' -c ../cacheReader/binaryReader.c",
+    "file": "../cacheReader/binaryReader.c"
+  },
+  {
+    "directory": "/home/pranav/Desktop/Research/CMimircache/CMimircache/build",
+    "command": "cc -IcacheReader@sta -I. -I.. -I.././headers -I.././cache/include -I.././cacheReader/include -I.././utils/include -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -MD -MQ 'cacheReader@sta/cacheReader_csvReader.c.o' -MF 'cacheReader@sta/cacheReader_csvReader.c.o.d' -o 'cacheReader@sta/cacheReader_csvReader.c.o' -c ../cacheReader/csvReader.c",
+    "file": "../cacheReader/csvReader.c"
+  },
+  {
+    "directory": "/home/pranav/Desktop/Research/CMimircache/CMimircache/build",
+    "command": "cc -IcacheReader@sta -I. -I.. -I.././headers -I.././cache/include -I.././cacheReader/include -I.././utils/include -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -MD -MQ 'cacheReader@sta/cacheReader_libcsv.c.o' -MF 'cacheReader@sta/cacheReader_libcsv.c.o.d' -o 'cacheReader@sta/cacheReader_libcsv.c.o' -c ../cacheReader/libcsv.c",
+    "file": "../cacheReader/libcsv.c"
+  },
+  {
+    "directory": "/home/pranav/Desktop/Research/CMimircache/CMimircache/build",
+    "command": "cc -IcacheReader@sta -I. -I.. -I.././headers -I.././cache/include -I.././cacheReader/include -I.././utils/include -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -MD -MQ 'cacheReader@sta/cacheReader_reader.c.o' -MF 'cacheReader@sta/cacheReader_reader.c.o.d' -o 'cacheReader@sta/cacheReader_reader.c.o' -c ../cacheReader/reader.c",
+    "file": "../cacheReader/reader.c"
+  },
+  {
+    "directory": "/home/pranav/Desktop/Research/CMimircache/CMimircache/build",
+    "command": "cc -IcacheReader@sta -I. -I.. -I.././headers -I.././cache/include -I.././cacheReader/include -I.././utils/include -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -MD -MQ 'cacheReader@sta/cacheReader_vscsiReader.c.o' -MF 'cacheReader@sta/cacheReader_vscsiReader.c.o.d' -o 'cacheReader@sta/cacheReader_vscsiReader.c.o' -c ../cacheReader/vscsiReader.c",
+    "file": "../cacheReader/vscsiReader.c"
+  },
+  {
+    "directory": "/home/pranav/Desktop/Research/CMimircache/CMimircache/build",
+    "command": "cc -Iprofiler@sta -I. -I.. -I.././headers -I.././cache/include -I.././cacheReader/include -I.././profiler/include -I.././dataStructure/include -I.././utils/include -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -MD -MQ 'profiler@sta/profiler_LRUProfiler.c.o' -MF 'profiler@sta/profiler_LRUProfiler.c.o.d' -o 'profiler@sta/profiler_LRUProfiler.c.o' -c ../profiler/LRUProfiler.c",
+    "file": "../profiler/LRUProfiler.c"
+  },
+  {
+    "directory": "/home/pranav/Desktop/Research/CMimircache/CMimircache/build",
+    "command": "cc -Iprofiler@sta -I. -I.. -I.././headers -I.././cache/include -I.././cacheReader/include -I.././profiler/include -I.././dataStructure/include -I.././utils/include -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -MD -MQ 'profiler@sta/profiler_profilerUtils.c.o' -MF 'profiler@sta/profiler_profilerUtils.c.o.d' -o 'profiler@sta/profiler_profilerUtils.c.o' -c ../profiler/profilerUtils.c",
+    "file": "../profiler/profilerUtils.c"
+  },
+  {
+    "directory": "/home/pranav/Desktop/Research/CMimircache/CMimircache/build",
+    "command": "cc -Iprofiler@sta -I. -I.. -I.././headers -I.././cache/include -I.././cacheReader/include -I.././profiler/include -I.././dataStructure/include -I.././utils/include -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -MD -MQ 'profiler@sta/profiler_eviction_stat.c.o' -MF 'profiler@sta/profiler_eviction_stat.c.o.d' -o 'profiler@sta/profiler_eviction_stat.c.o' -c ../profiler/eviction_stat.c",
+    "file": "../profiler/eviction_stat.c"
+  },
+  {
+    "directory": "/home/pranav/Desktop/Research/CMimircache/CMimircache/build",
+    "command": "cc -Iprofiler@sta -I. -I.. -I.././headers -I.././cache/include -I.././cacheReader/include -I.././profiler/include -I.././dataStructure/include -I.././utils/include -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -MD -MQ 'profiler@sta/profiler_partition.c.o' -MF 'profiler@sta/profiler_partition.c.o.d' -o 'profiler@sta/profiler_partition.c.o' -c ../profiler/partition.c",
+    "file": "../profiler/partition.c"
+  },
+  {
+    "directory": "/home/pranav/Desktop/Research/CMimircache/CMimircache/build",
+    "command": "cc -Iprofiler@sta -I. -I.. -I.././headers -I.././cache/include -I.././cacheReader/include -I.././profiler/include -I.././dataStructure/include -I.././utils/include -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -MD -MQ 'profiler@sta/profiler_generalProfiler.c.o' -MF 'profiler@sta/profiler_generalProfiler.c.o.d' -o 'profiler@sta/profiler_generalProfiler.c.o' -c ../profiler/generalProfiler.c",
+    "file": "../profiler/generalProfiler.c"
+  },
+  {
+    "directory": "/home/pranav/Desktop/Research/CMimircache/CMimircache/build",
+    "command": "cc -Iprofiler@sta -I. -I.. -I.././headers -I.././cache/include -I.././cacheReader/include -I.././profiler/include -I.././dataStructure/include -I.././utils/include -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -MD -MQ 'profiler@sta/profiler_heatmap.c.o' -MF 'profiler@sta/profiler_heatmap.c.o.d' -o 'profiler@sta/profiler_heatmap.c.o' -c ../profiler/heatmap.c",
+    "file": "../profiler/heatmap.c"
+  },
+  {
+    "directory": "/home/pranav/Desktop/Research/CMimircache/CMimircache/build",
+    "command": "cc -Iprofiler@sta -I. -I.. -I.././headers -I.././cache/include -I.././cacheReader/include -I.././profiler/include -I.././dataStructure/include -I.././utils/include -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -MD -MQ 'profiler@sta/profiler_heatmapThreadLRU.c.o' -MF 'profiler@sta/profiler_heatmapThreadLRU.c.o.d' -o 'profiler@sta/profiler_heatmapThreadLRU.c.o' -c ../profiler/heatmapThreadLRU.c",
+    "file": "../profiler/heatmapThreadLRU.c"
+  },
+  {
+    "directory": "/home/pranav/Desktop/Research/CMimircache/CMimircache/build",
+    "command": "cc -Iprofiler@sta -I. -I.. -I.././headers -I.././cache/include -I.././cacheReader/include -I.././profiler/include -I.././dataStructure/include -I.././utils/include -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -MD -MQ 'profiler@sta/profiler_heatmapThreadNonLRU.c.o' -MF 'profiler@sta/profiler_heatmapThreadNonLRU.c.o.d' -o 'profiler@sta/profiler_heatmapThreadNonLRU.c.o' -c ../profiler/heatmapThreadNonLRU.c",
+    "file": "../profiler/heatmapThreadNonLRU.c"
+  },
+  {
+    "directory": "/home/pranav/Desktop/Research/CMimircache/CMimircache/build",
+    "command": "cc -Iutils@sta -I. -I.. -I.././headers -I.././cache/include -I.././cacheReader/include -I.././dataStructure/include -I.././utils/include -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -MD -MQ 'utils@sta/utils_cleaner.c.o' -MF 'utils@sta/utils_cleaner.c.o.d' -o 'utils@sta/utils_cleaner.c.o' -c ../utils/cleaner.c",
+    "file": "../utils/cleaner.c"
+  },
+  {
+    "directory": "/home/pranav/Desktop/Research/CMimircache/CMimircache/build",
+    "command": "cc -Iutils@sta -I. -I.. -I.././headers -I.././cache/include -I.././cacheReader/include -I.././dataStructure/include -I.././utils/include -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -MD -MQ 'utils@sta/utils_logging.c.o' -MF 'utils@sta/utils_logging.c.o.d' -o 'utils@sta/utils_logging.c.o' -c ../utils/logging.c",
+    "file": "../utils/logging.c"
+  },
+  {
+    "directory": "/home/pranav/Desktop/Research/CMimircache/CMimircache/build",
+    "command": "cc -Iutils@sta -I. -I.. -I.././headers -I.././cache/include -I.././cacheReader/include -I.././dataStructure/include -I.././utils/include -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -MD -MQ 'utils@sta/utils_murmurhash3.c.o' -MF 'utils@sta/utils_murmurhash3.c.o.d' -o 'utils@sta/utils_murmurhash3.c.o' -c ../utils/murmurhash3.c",
+    "file": "../utils/murmurhash3.c"
+  },
+  {
+    "directory": "/home/pranav/Desktop/Research/CMimircache/CMimircache/build",
+    "command": "cc -Iutils@sta -I. -I.. -I.././headers -I.././cache/include -I.././cacheReader/include -I.././dataStructure/include -I.././utils/include -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -pthread -MD -MQ 'utils@sta/utils_utils.c.o' -MF 'utils@sta/utils_utils.c.o.d' -o 'utils@sta/utils_utils.c.o' -c ../utils/utils.c",
+    "file": "../utils/utils.c"
+  },
+  {
+    "directory": "/home/pranav/Desktop/Research/CMimircache/CMimircache/build",
+    "command": "cc -ICMimircache@exe -I. -I.. -I.././headers -I.././cache/include -I.././cacheReader/include -I.././profiler/include -I.././dataStructure/include -I.././utils/include -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -pthread -MD -MQ 'CMimircache@exe/mimircache.c.o' -MF 'CMimircache@exe/mimircache.c.o.d' -o 'CMimircache@exe/mimircache.c.o' -c ../mimircache.c",
+    "file": "../mimircache.c"
+  }
+]
