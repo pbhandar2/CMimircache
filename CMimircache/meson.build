@@ -13,6 +13,7 @@ CMimircache_BASE_PATH =  '.'
 
 ########################## sources ###########################
 src_CMimircache                 = ['mimircache.c']
+src_readerTest = ['readerTest.c']
 
 src_CMimircache_cacheReader     = [CMimircache_BASE_PATH + '/cacheReader/binaryReader.c',
                                     CMimircache_BASE_PATH + '/cacheReader/csvReader.c',
@@ -123,6 +124,19 @@ lib_CMimircache_utils       = static_library('utils', sources: src_CMimircache_u
 ###################### target: executable #######################
 executable('CMimircache',
             sources: [src_CMimircache],
+            dependencies: [glib_dep, thread_dep, m_dep],
+            link_with: [lib_CMimircache_cache, lib_CMimircache_cacheReader,
+                        lib_CMimircache_ds,
+                        lib_CMimircache_profiler, lib_CMimircache_utils
+                       ],
+            include_directories: [inc_CMimircache, inc_CMimircache_cache,
+                                  inc_CMimircache_cacheReader, inc_CMimircache_profiler,
+                                  inc_CMimircache_ds, inc_CMimircache_utils
+                                 ]
+          )
+
+executable('readerTest',
+            sources: [src_readerTest],
             dependencies: [glib_dep, thread_dep, m_dep],
             link_with: [lib_CMimircache_cache, lib_CMimircache_cacheReader,
                         lib_CMimircache_ds,

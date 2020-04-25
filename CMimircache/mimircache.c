@@ -32,8 +32,10 @@ int main() {
 	cache_t* mithril_cache=Mithril_init(cache_size, data_type, block_size, &mithril_init);
 
 	// Get the data reader 
-	reader_t* reader = setup_reader("../data/trace.vscsi", 
+	reader_t* reader = setup_reader("../data/w99_vscsi1.vscsitrace", 
 		'v', 'l', BLOCK_UNIT_SIZE, DISK_SECTOR_SIZE, NULL);
+
+	printf("Trace file has %d reqs\n", get_num_of_req(reader));
 
 	// read each request of the trace 
 	request_t* cp = new_req_struct();
@@ -41,8 +43,8 @@ int main() {
 
     read_one_element(reader, cp);
     while (cp->valid){
-    	//printf("HERER, %ld \n", cp->label_ptr);
-		Mithril_add_element(mithril_cache, cp);
+    	//printf("%ld \n", cp->label_ptr);
+		//Mithril_add_element(mithril_cache, cp);
     	read_one_element(reader, cp);
 	}
 
@@ -55,7 +57,7 @@ int main() {
 
 	g_hash_table_iter_init (&iter, prefetched_hashtable_Mithril);
 
-	printf("Iterating over hash table");
+	printf("Iterating over hash table with %d keys\n", g_list_length(keys));
 	while (g_hash_table_iter_next (&iter, &key, &value)) 
 	  {
 	    printf("Key: %d", key);

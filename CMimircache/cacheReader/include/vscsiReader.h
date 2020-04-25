@@ -116,9 +116,12 @@ static inline int vscsi_read_ver1(reader_t* reader, request_t* c){
     trace_v1_record_t *record = (trace_v1_record_t *)(reader->base->mapped_file
                                                       + reader->base->offset);
     c->real_time = record->ts;
+    printf("the time is %ld\n", c->real_time);
     c->size = record->len;
+    printf("the size is %ld\n", c->size);
     c->op = record->cmd;
     *((guint64*)(c->label_ptr)) = record->lbn;
+    printf("the lbn is %ld\n", c->label_ptr);
     (reader->base->offset) += reader->base->record_size;
     return 0;
 }
