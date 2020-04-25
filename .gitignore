@@ -10,3 +10,7 @@ akamai.*
 test.c
 makefile
 mimircache.c
+build
+CMimircache/build
+
+CMimircache/build/.ninja_deps
