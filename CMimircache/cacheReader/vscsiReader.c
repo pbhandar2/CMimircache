@@ -37,7 +37,7 @@ int vscsi_setup(const char *const filename,
     
     
     vscsi_version_t ver = test_vscsi_version (reader->base->mapped_file);
-    printf("THE VSCSI VER IS %d\n", ver);
+    // printf("THE VSCSI VER IS %d\n", ver);
     switch (ver){
         case VSCSI1:
         case VSCSI2:
