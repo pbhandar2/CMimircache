@@ -68,24 +68,21 @@ int main() {
 
 	printf("Current row is %d\n", ptable_cur_row);
 
-
+	gint dim1, dim2;
 
 	for (int i=0; i<ptable_cur_row; i++) {
-		//gint64 test = ptable_array[i][0]
-		printf("Row 0, %d, %d, %d, %d, %d, %d\n", ptable_array[0][0], ptable_array[0][1], ptable_array[0][2], ptable_array[0][3], ptable_array[0][4], ptable_array[0][5]);
-		printf("Row %d, %d, %d\n", i, ptable_array[i][0], ptable_array[i][1]);
-		break;
+	    dim1 = (gint)floor(i/(double)PREFETCH_TABLE_SHARD_SIZE);
+	    dim2 = i % PREFETCH_TABLE_SHARD_SIZE *
+	           (mithril_results->pf_list_size + 1);
+	    gint cur_block = ptable_array[dim1][dim2];
+	    printf("%d -> ", cur_block);
+	    for (int j=1; j<mithril_results->pf_list_size+1; j++) {
+	    	gint associated_block = ptable_array[dim1][dim2+j];
+	    	if (associated_block != 0)
+	    		printf("%d ", associated_block);
+	    }
+	    printf("\n");
+	    
 	}
-
-	// printf("Row 0, %d, %d\n", ptable_array[0][0], ptable_array[0][1]);
-	// printf("Row 1, %d, %d\n", ptable_array[1][0], ptable_array[1][1]);
-	// printf("Row 2, %d, %d\n", ptable_array[2][0], ptable_array[2][1]);
-
-	// printf("Iterating over hash table with %d keys\n", g_list_length(keys));
-
-	// while (g_hash_table_iter_next (&iter, &key, &value)) 
-	//   {
- //    	//printf("Key: %ld\n", *(long *) key);
-	//   }
 
 } 
